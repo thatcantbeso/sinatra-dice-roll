@@ -19,7 +19,17 @@ get("/") do
   "
 end
 
-#
+get("/bison") do
+  "Welcome to the secret page!"
+end
+
+get("/giraffe") do
+  "Bison are the largest north american land mammal"
+end
+
+get("/giraffe2") do
+  "test again"
+end
 
 get("/dice/2/6") do
   first_die = rand(1..6)
